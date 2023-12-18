@@ -1,5 +1,18 @@
+// next images
+import Image from "next/image";
+
+// link
+import Link from "next/link";
+
+// icon
+import { HiArrowRight } from "react-icons/hi2";
+
 const ProjectsBtn = () => {
-  return <div>Project Btn</div>;
+  return <div className="mx-auto xl:mx-0">
+    <Link href={'/work'}>
+      <Image src={'/rounded-text.png'} width={141} height={148} alt="next-text" className="animate-spin-slow h-full w-full max-w-[141px] max-h-[148]" />
+    </Link>
+  </div>;
 };
 
 export default ProjectsBtn;
