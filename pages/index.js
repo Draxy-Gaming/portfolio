@@ -21,7 +21,7 @@ const Home = () => {
             Transforming Ideas <br />Into  <span className="text-accent">Digital Reality</span>
           </h1>
           {/*subtitle */}
-          <p className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16">Nisi enim nisi consectetur sit sint magna nostrud non excepteur ea incididunt proident aute velit. Velit aute pariatur incididunt exercitation eiusmod sit id Lorem eu officia magna. Adipisicing consectetur cupidatat aute esse id in est duis magna est consequat quis fugiat Lorem. Incididunt adipisicing ullamco mollit commodo occaecat sunt fugiat consectetur occaecat et laboris. Aute do esse cillum exercitation aliqua do. Nulla sunt eu incididunt ipsum enim nisi duis labore ullamco ex quis elit ex ipsum. Quis duis officia id sint quis ex cupidatat nostrud.</p>
+          <p className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16">Nisi enim nisi consectetur sit sint magna nostrud non excepteur ea incididunt proident aute velit. Velit aute pariatur incididunt exercitation .</p>
           <div className="flex justify-center  xl:hidden relative">
             <ProjectBtn />
           </div>
