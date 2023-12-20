@@ -53,6 +53,12 @@ const Home = () => {
       <div className="w-[1200px] h-full absolute right-0 bottom-0">
         <div className="xl:bg-right bg-none xl:bg-explosion xl:bg-cover xl:bg-no-repeat h-full w-full absolute mix-blend-color-dodge translate-z-0">
         </div>
+        {/*particles */}
+        <div>Particles</div>
+        {/* Avatar */}
+        <div>
+          <Avatar />
+        </div>
       </div>
     </div>
   );
