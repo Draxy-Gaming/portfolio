@@ -56,9 +56,15 @@ const Home = () => {
         {/*particles */}
         <div>Particles</div>
         {/* Avatar */}
-        <div className="w-full h-full max-w-[737px] max-h-[678px]">
+        <motion.div 
+         variants={fadeIn("up", 0.5)}
+         transition={{ duration: 1, ease: "easeInOut" }}
+         initial="hidden"
+         animate="show"
+         exit="hidden"
+          className="w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:bottom-0 lg:right-[8%]">
           <Avatar />
-        </div>
+        </motion.div>
       </div>
     </div>
   );
